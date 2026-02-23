@@ -115,7 +115,6 @@ button:hover{
 
     <button onclick="gerar()">GERAR SENSIBILIDADE</button>
 
-    <!-- BOTÃO TIKTOK CORRIGIDO -->
     <a href="https://www.tiktok.com/@fall90hz?_r=1&_t=ZS-94Adwamm1Ce" target="_blank" style="text-decoration:none;">
         <button type="button">SIGA O DONO NO TIKTOK</button>
     </a>
@@ -143,7 +142,10 @@ function gerar(){
         return;
     }
 
-    var geral, redDot, doisX, quatroX, awm, dpi, tamanho;
+    var geral, redDot, doisX, quatroX, awm, dpi, tamanho, rolagem;
+
+    // Detecta se é iPhone ou iOS
+    var isIOS = celular.toLowerCase().includes("iphone") || celular.toLowerCase().includes("ios");
 
     if(nivel === "alta"){
         geral = random(170,200);
@@ -152,6 +154,7 @@ function gerar(){
         quatroX = random(140,180);
         awm = random(120,170);
         dpi = random(700,1000);
+        rolagem = random(80,100);
         tamanho = random(40,55);
     }
 
@@ -162,6 +165,7 @@ function gerar(){
         quatroX = random(110,150);
         awm = random(90,140);
         dpi = random(500,800);
+        rolagem = random(60,85);
         tamanho = random(45,60);
     }
 
@@ -172,22 +176,38 @@ function gerar(){
         quatroX = random(80,120);
         awm = random(70,110);
         dpi = random(360,600);
+        rolagem = random(40,70);
         tamanho = random(50,65);
     }
 
     document.getElementById("resultado").style.display="block";
-    document.getElementById("resultado").innerHTML = `
-    📱 Celular: <b>${celular}</b><br><br>
-    🎯 Geral: ${geral}<br>
-    🔴 Red Dot: ${redDot}<br>
-    🔭 2X: ${doisX}<br>
-    🔎 4X: ${quatroX}<br>
-    🎯 AWM: ${awm}<br>
-    ⚙ DPI: ${dpi}<br>
-    🔘 Tamanho do Botão: ${tamanho}
-    `;
+
+    if(isIOS){
+        document.getElementById("resultado").innerHTML = `
+        📱 Celular: <b>${celular}</b><br><br>
+        🎯 Geral: ${geral}<br>
+        🔴 Red Dot: ${redDot}<br>
+        🔭 2X: ${doisX}<br>
+        🔎 4X: ${quatroX}<br>
+        🎯 AWM: ${awm}<br>
+        🍎 Velocidade da Rolagem (iOS): ${rolagem}<br>
+        🔘 Tamanho do Botão: ${tamanho}
+        `;
+    } 
+    else{
+        document.getElementById("resultado").innerHTML = `
+        📱 Celular: <b>${celular}</b><br><br>
+        🎯 Geral: ${geral}<br>
+        🔴 Red Dot: ${redDot}<br>
+        🔭 2X: ${doisX}<br>
+        🔎 4X: ${quatroX}<br>
+        🎯 AWM: ${awm}<br>
+        ⚙ DPI: ${dpi}<br>
+        🔘 Tamanho do Botão: ${tamanho}
+        `;
+    }
 }
 </script>
 
 </body>
-    </html>
+</html>
