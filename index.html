@@ -499,6 +499,15 @@ function gerar(){
         🔘 Tamanho do Botão: ${tamanho}
         `;
     }
+
+    // 🔥 EVENTO GOOGLE ANALYTICS
+    if (typeof gtag === "function") {
+        gtag('event', 'gerar_sensibilidade', {
+            'event_category': 'engajamento',
+            'event_label': celular,
+            'nivel_escolhido': nivel
+        });
+    }
 }
 
 // PLAYER DE ÁUDIO
@@ -543,4 +552,4 @@ progressContainer.addEventListener("click", function(e){
 </script>
 
 </body>
-</html>
+  </html>
