@@ -160,7 +160,7 @@ const modelosMotorola = [
   "Moto G42","Moto G43","Moto G44","Moto G45","Moto G45 5G",
   "Moto G50","Moto G50 5G","Moto G52","Moto G53","Moto G53 5G","Moto G54","Moto G54 5G","Moto G55","Moto G55 5G",
   "Moto G60","Moto G60s","Moto G62","Moto G62 5G",
-  "Moto G71","Moto G71 5G","Moto G72","Moto G73","Moto G73 5G","Moto G82","Moto G84","Moto G85",
+  "Moto G71","Moto G71 5G","Moto G72","Moto G73","Moto G73 5G","Moto G74","Moto G75","Moto G82","Moto G84","Moto G85",
   "Moto G100","Moto G200","Moto G Power 2024","Moto G Stylus 2024",
   "Moto E6","Moto E6 Plus","Moto E6i","Moto E6s",
   "Moto E7","Moto E7 Plus","Moto E7 Power","Moto E7i Power",
