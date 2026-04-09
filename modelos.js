@@ -89,7 +89,7 @@ const modelosRedmi = [
   "Redmi 10","Redmi 10A","Redmi 10A Sport","Redmi 10C","Redmi 10 5G","Redmi 10 Prime","Redmi 10 Prime+",
   "Redmi 12","Redmi 12 5G","Redmi 12C","Redmi 12 Prime",
   "Redmi 13","Redmi 13C","Redmi 13 5G","Redmi 13C 5G",
-  "Redmi 14C","Redmi 14C 5G",
+  "Redmi 14C","Redmi 14C 5G","Redmi 15C","Redmi 15C 5G",
   "Redmi Note 8","Redmi Note 8 Pro","Redmi Note 8T",
   "Redmi Note 9","Redmi Note 9 Pro","Redmi Note 9 Pro Max","Redmi Note 9S","Redmi Note 9T",
   "Redmi Note 10","Redmi Note 10 Pro","Redmi Note 10 Pro Max","Redmi Note 10S","Redmi Note 10 5G","Redmi Note 10T",
