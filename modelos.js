@@ -97,8 +97,8 @@ const modelosRedmi = [
   "Redmi Note 11E","Redmi Note 11E Pro",
   "Redmi Note 12","Redmi Note 12 Pro","Redmi Note 12 Pro+","Redmi Note 12S","Redmi Note 12 5G","Redmi Note 12 Turbo","Redmi Note 12R",
   "Redmi Note 13","Redmi Note 13 Pro","Redmi Note 13 Pro+","Redmi Note 13 5G","Redmi Note 13R",
-  "Redmi Note 14","Redmi Note 15","Redmi Note 14 Pro","Redmi Note 14 Pro+","Redmi Note 14 5G","Redmi Note 14R",
-  "Redmi K60","Redmi K60 Pro","Redmi K70","Redmi K70 Pro","Redmi K70 Ultra","Redmi K80","Redmi K80 Pro"
+  "Redmi Note 14","Redmi Note 14 Pro","Redmi Note 14 Pro+","Redmi Note 14 5G","Redmi Note 14R",
+  "Redmi K60","Redmi K60 Pro","Redmi K70","Redmi K70 Pro","Redmi K70 Ultra","Redmi K80","Redmi K80 Pro","Redmi Note 15"
 ];
 
 const modelosPoco = [
